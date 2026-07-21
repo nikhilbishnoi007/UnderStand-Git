@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.div{
+    background-color: rgba(54, 50, 50, 0.726);
+    padding: 1em;
+
+}
+.flex{
+    display: flex;
+    justify-content:space-around;
+}
+ul{
+    list-style-type: none;
+    
+}
+.btn{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
