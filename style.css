@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.light{
+    background-color:white;
+    color: black;
+}
 .dark{
     background-color: black;
     color: white;
@@ -15,6 +19,7 @@
 .flex{
     display: flex;
     justify-content:space-around;
+    align-items: center;
 }
 ul{
     list-style-type: none;
@@ -22,11 +27,14 @@ ul{
 }
 .btn{
     background: none;
-    color: white;
     border: none;
     cursor: pointer;
 }
 .h2{
     margin: 10px ;
     text-align: center;
+}
+#anchor{
+    background: none;
+    text-decoration: none;
 }
