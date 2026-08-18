@@ -16,6 +16,7 @@ function handleClick(){
   if(document.body.classList=="dark"){
     btn.classList.add("dark")
     anchor.classList.add("dark")
+    anchor.classList.remove("light")
   }
   else{
     btn.classList.remove("dark")
