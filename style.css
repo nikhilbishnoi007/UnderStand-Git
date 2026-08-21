@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.light{
+    background-color:white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.div{
+    background-color: rgba(54, 50, 50, 0.726);
+    padding: 1em;
+
+}
+.flex{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    
+}
+.btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.h2{
+    margin: 10px ;
+    text-align: center;
+}
+#anchor{
+    background: none;
+    text-decoration: none;
+}
